@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+   
+}
+
+p{
+    margin: 0 auto; /* Center horizontally */
+    max-width: 80%; /* Limit maximum width to ensure proper centering */
+    padding: 25px;
+     font-size:large
+}
+
+form{
+    font-size:xx-large  ;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 55px;
+    font-size:large;
+}
+#circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    font-size:x-large;
+    align-items: center;
+    background: rgb(250, 246, 246);
+    border: 1px solid black;
+    padding: 30px;
+  }
+  #square {
+    background: rgb(250, 246, 246);
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    padding: 60px;
+}
